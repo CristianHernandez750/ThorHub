@@ -1,5 +1,5 @@
 const conteiner = document.getElementById('conteiner');
-
+const boton = document.getElementById('boton');
 let nuevoparrafo
 let nuevotexto
 
@@ -13,5 +13,5 @@ function funcionIncreible(){
       conteiner.appendChild(nuevoparrafo);
    }
 }
-
+boton.addEventListener("click", funcionIncreible())
 funcionIncreible()
