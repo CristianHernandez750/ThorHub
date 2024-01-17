@@ -14,4 +14,4 @@ function funcionIncreible(){
    }
 }
 boton.addEventListener("click", funcionIncreible())
-funcionIncreible()
+
